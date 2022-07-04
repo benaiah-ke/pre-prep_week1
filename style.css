@@ -67,6 +67,9 @@ header{
     color: inherit;
 }
 
+.btn-blue i{
+    padding-right: 20px;
+}
 
 
 /* Common styles */
@@ -148,6 +151,10 @@ section{
 .search form input{
     display: block;
     width: 100%;
+}
+
+.search i{
+    padding-left: 15px;
 }
 
 .search form label{
