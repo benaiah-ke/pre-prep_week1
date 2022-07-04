@@ -7,6 +7,8 @@
 
 body{
     background: #fafafa;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 
@@ -94,17 +96,19 @@ section{
 
 .intro-text{
     width: 50%;
+    padding-right: 20px;
 }
 
 .intro-text h1{
     color: #0F298B;
-    font-size: 35px;
-    margin-bottom: 1rem;
+    font-size: 50px;
+    margin-bottom: 30px;
 }
 
 .intro-text h3{
-    font-size: 18px;
-    margin-bottom: 25px;
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: 300;
 }
 
 .intro-text i{
