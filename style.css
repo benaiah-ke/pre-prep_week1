@@ -168,10 +168,6 @@ section{
 
 
 /* Products section */
-#products{
-
-}
-
 #products h1{
     color: #0F298B;
     font-weight: 700;
@@ -220,4 +216,50 @@ section{
 
 .row .col-1-3 > div p{
     font-size: 1.1em;
+}
+
+
+
+
+
+/* Why Us section */
+#why-us{
+    display: flex;
+    align-items: center;
+}
+
+#why-us>div{
+    width: 50%;
+}
+
+#why-us .info{
+    padding-left: 40px;
+}
+
+#why-us .img img{
+    height: auto;
+    max-width: 100%;
+}
+
+#why-us h1{
+    color: #0F298B;
+    font-weight: 700;
+}
+
+.row2{
+    display: flex;
+}
+
+.row2 .col-1-2{
+    width: 50%;
+}
+
+.row2 .col-1-2>div{
+    display: flex;
+    align-items: center;
+}
+
+.row2 .col-1-2 i{
+    margin-right: 8px;
+    color: #0F298B;
 }
