@@ -31,8 +31,10 @@
             <div class="intro-text">
                 <h1>Helping you find the property of your dreams.</h1>
                 <h3>Creating quality urban lifestyles,building stronger communities</h3>
-                <a class="btn-blue" href="#">Learn More</a>
-                <i class="#">Add Play Icon</i>
+                <div class="intro-buttons">
+                    <a class="btn-blue" href="#">Learn More</a>
+                    <i class="#">Add Play Icon</i>
+                </div>
             </div>
             <div class="intro-pic">
                 <img src="assets/image 1.png">
@@ -40,24 +42,37 @@
             <!--Search Bar Starts-->
             <div class="search">
                 <form>
-                    <label for="location">Location</label>
-                    <select id="location" name="location">
-                        <option value="lekki">Lekki</option>
-                        <option value="kelli">Kelli</option>
-                        <option value="likel">Likel</option>
-                        <option value="illek">Illek</option>
-                      </select>
-                    <label for="property-type">Property Type</label>
-                    <select id="property-type" name="property-type">
-                        <option value="duplex">Duplex</option>
-                        <option value="single">Single</option>
-                        <option value="mansion">Mansion</option>
-                        <option value="bungalow">Bungalow</option>
-                      </select>
-                    <label for="max-price">Max Price</label>
-                    <a>$</a><input type="text" name="max-price" data-type="currency">
+                    <div>
+                        <label for="location">Location</label>
+                        <select id="location" name="location">
+                            <option value="lekki">Lekki</option>
+                            <option value="kelli">Kelli</option>
+                            <option value="likel">Likel</option>
+                            <option value="illek">Illek</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="property-type">Property Type</label>
+                        <select id="property-type" name="property-type">
+                            <option value="duplex">Duplex</option>
+                            <option value="single">Single</option>
+                            <option value="mansion">Mansion</option>
+                            <option value="bungalow">Bungalow</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="max-price">Max Price</label>
+                        <div class="input-wrap">
+                            <a>$</a>
+                            <input type="text" name="max-price" data-type="currency">
+                        </div>
+                    </div>
+
+                    <div>
+                        <a class="btn-blue" href="#"><i class="#">Add Search Icon</i>Search</a>
+                    </div>
                 </form>
-                <a class="btn-blue" href="#"><i class="#">Add Search Icon</i>Search</a>
             </div>
             <!-- Search Bar Ends-->
         </section>

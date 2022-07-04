@@ -1,11 +1,12 @@
 /* #0F298B, #FAFAFA, #2549D3 */
 
 *{
-    font-family: 'Space Grotesk', sans-serif;;
+    font-family: 'Space Grotesk', sans-serif;
+    box-sizing: border-box;
 }
 
 body{
-    background: #fff;
+    background: #fafafa;
 }
 
 
@@ -58,9 +59,106 @@ header{
     border: none;
     padding: .75rem 1rem;
     border-radius: .25rem;
+    text-decoration: none;
 }
 
 .btn-blue a{
     text-decoration: none;
     color: inherit;
+}
+
+
+
+/* Common styles */
+section{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+
+/* Intro section */
+#intro {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#intro > *{
+    float: left;
+}
+
+.intro-text{
+    width: 50%;
+}
+
+.intro-text h1{
+    color: #0F298B;
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+
+.intro-text h3{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.intro-buttons{
+
+}
+
+.intro-pic{
+    width: 50%;
+}
+
+.intro-pic img{
+    height: auto;
+    max-width: 100%;
+}
+
+
+/* Search */
+.search{
+    width: 100%;
+    padding: 80px;
+}
+
+.search form{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.1);
+    display: flex;
+    align-items: center;
+}
+
+.search form > *{
+    width: 25%;
+    padding: 0 10px;
+}
+
+.search form label,
+.search form select,
+.search form input{
+    display: block;
+    width: 100%;
+}
+
+.search form label{
+    color: #0F298B;
+}
+
+.search form select{
+    border: none;
+    appearance: none;
+    background-color: #0000;
+}
+
+.search form .input-wrap{
+    display: flex;
+    align-items: center;
+    
+}
+
+.search form input{
+    border: none;
 }
