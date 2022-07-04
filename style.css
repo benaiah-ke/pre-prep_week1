@@ -1,0 +1,66 @@
+/* #0F298B, #FAFAFA, #2549D3 */
+
+*{
+    font-family: 'Space Grotesk', sans-serif;;
+}
+
+body{
+    background: #fff;
+}
+
+
+/* Top header styles */
+header{
+    padding: .75rem 1rem;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+.logo-text{
+    font-weight: 800;
+}
+
+.logo-text h3{
+    margin: 0;
+}
+
+.logo-text a{
+    text-decoration: none;
+    color: #202020;
+    font-family: 'Oleo Script', cursive;
+    font-size: 1.5em;
+}
+
+.nav-bar{
+    margin: 0 auto;
+}
+
+.nav-bar a{
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    color: #202020;
+}
+
+.nav-bar a:not(:last-child){
+    margin-right: 1rem;
+}
+
+.nav-bar a.active{
+    color: #0F298B;
+    font-weight: 700;
+}
+
+.btn-blue{
+    background-color: #2549D3;
+    color: #fff;
+    border: none;
+    padding: .75rem 1rem;
+    border-radius: .25rem;
+}
+
+.btn-blue a{
+    text-decoration: none;
+    color: inherit;
+}
