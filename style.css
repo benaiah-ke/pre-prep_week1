@@ -104,6 +104,11 @@ section{
     margin-bottom: 25px;
 }
 
+.intro-text i{
+    margin-left: 30px;
+    color: #2549D3;
+}
+
 .intro-buttons{
 
 }
